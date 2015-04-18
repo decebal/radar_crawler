@@ -24,6 +24,5 @@ class QuizSpider(scrapy.Spider):
     def parse_answer(self, response):
         sel = scrapy.Selector(response)
         self.result['body'] = sel.extract()
-        result = self.result
 
         yield self.result
