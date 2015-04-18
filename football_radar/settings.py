@@ -13,5 +13,7 @@ BOT_NAME = 'football_radar'
 SPIDER_MODULES = ['football_radar.spiders']
 NEWSPIDER_MODULE = 'football_radar.spiders'
 
+DEFAULT_ITEM_CLASS = 'football_radar.items.FootballRadarItem'
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'football_radar (+http://www.yourdomain.com)'
